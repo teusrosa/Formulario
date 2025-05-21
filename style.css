@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(178, 205, 229);
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+form {
+    background-color: rgb(156, 173, 188);
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    margin: 70px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(234, 32, 32, 0.1);
+    box-sizing: border-box;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #454040;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #454040;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #454040;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #454040;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #454040;
+    border-radius: 5px;
+    font-size: 16px;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #454040;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+}
+
+button[type="submit"]:hover {
+    background-color: #3d8e40;
+}
+
+
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #d32f2f;
+}
